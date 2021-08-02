@@ -5,7 +5,7 @@
 3. Go to your file project
 4. Run in terminal: ```npm install -g @angular/cli```
 5. Then: ```npm install```
-6. And: ```npm start```
+6. And: ```ng serfe```
 7. Navigate to [localhost:4200](localhost:4200)
 ### What's included
 
