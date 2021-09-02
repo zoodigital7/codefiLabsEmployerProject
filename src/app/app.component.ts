@@ -26,12 +26,14 @@ export class AppComponent implements OnInit {
                 var _location = this.location.path();
                 _location = _location.split('/')[2];
                 if (this.location.path().split('#')[0] !== 'sections') {
-
                     if (number > 150 || window.pageYOffset > 150) {
                         // remove logic
                         if (_location !== 'register') {
                             navbar.classList.remove('navbar-transparent');
                         }
+                    } else {
+                        // remove logic
+                        navbar.classList.add('navbar-transparent');
                     }
                 }
             });
