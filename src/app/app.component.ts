@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
                 const number = window.scrollY;
                 var _location = this.location.path();
                 _location = _location.split('/')[2];
-                if (this.location.path().split('#')[0] !== '') {
+                if (this.location.path().split('#')[0] !== 'sections') {
 
                     if (number > 150 || window.pageYOffset > 150) {
                         // remove logic

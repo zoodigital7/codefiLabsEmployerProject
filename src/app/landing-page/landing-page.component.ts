@@ -22,6 +22,7 @@ export class LandingPageComponent implements OnInit, OnDestroy, AfterViewInit {
         const navbar = document.getElementsByTagName('nav')[0]
         navbar.classList.add('navbar-transparent')
     }
+
     ngAfterViewInit(){
       setTimeout(function(){
         if (window.innerWidth >= 991) {
@@ -68,6 +69,7 @@ export class LandingPageComponent implements OnInit, OnDestroy, AfterViewInit {
       },200)
 
     }
+    
     ngOnDestroy(){
         const body = document.getElementsByTagName('body')[0]
         body.classList.remove('landing-page')
