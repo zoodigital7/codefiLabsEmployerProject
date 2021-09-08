@@ -3,18 +3,18 @@ import { CommonModule, } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
-    { path: '', component: LandingPageComponent, pathMatch: 'full' }
+    { path: '', component: LandingPageComponent, pathMatch: 'full' },
+    { path: 'about-me', component: AboutMeComponent, pathMatch: 'full' }
 ];
 
 @NgModule({
     imports: [
         CommonModule,
         BrowserModule,
-        RouterModule.forRoot(routes, {
-            useHash: true
-        })
+        RouterModule.forRoot(routes)
     ],
     exports: [
     ],
