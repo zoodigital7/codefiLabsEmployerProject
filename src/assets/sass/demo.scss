@@ -569,43 +569,6 @@
 }
 .landing-page,
 .index-page{
-
-    .rellax-text-container{
-        max-width: 1003px;
-        margin: 0 auto;
-        text-align: center;
-        position: relative;
-        top: 24%;
-
-        .h1-seo{
-            font-size: 14.8em;
-            text-transform: uppercase;
-            font-weight: 700;
-            font-family: 'Open Sans Condensed', sans-serif;
-            z-index: 1;
-            letter-spacing: -10px;
-            text-align: center;
-            background: #ffedea;
-            background: -moz-linear-gradient(top, #FFFFFF 35%, #c38775 100%);
-            background: -webkit-linear-gradient(top, #FFFFFF 35%, #c38775 100%);
-            background: linear-gradient(to bottom, #FFFFFF 35%, #c38775 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .pro{
-            position: absolute;
-            font-size: 20px;
-            background: #132026;
-            padding: 6px 10px;
-            border-radius: 4px;
-            top: 41px;
-            font-weight: 600;
-            margin-top: 10px;
-            right: -78px;
-        }
-    }
-
     .n-logo{
         max-width: 100px;
         margin-bottom: 40px;
@@ -643,7 +606,7 @@
     [data-background-color="dark-red"]{
         background: #220c08;
     }
-    .page-header{
+    .header-one .page-header{
         background: #d0aea8;
     }
 
